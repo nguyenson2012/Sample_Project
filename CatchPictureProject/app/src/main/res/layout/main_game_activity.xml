@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_view_practice"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/fr_main_game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame_correct_answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:background="@color/gray_light">
+        <RelativeLayout
+            android:id="@+id/layout_corrext_star"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/star_size"
+            android:layout_marginTop="@dimen/star_margin_top"
+            android:orientation="horizontal"
+            android:background="@color/dark_blue"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/text_size_correct"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="CORRECT"
+                android:textColor="@color/light_green"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvYouGotIt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="You Got It!"
+            android:textColor="@color/light_green"
+            android:textSize="@dimen/text_size_got_it"
+            android:layout_marginTop="@dimen/gotit_margin_top"
+            android:background="@color/dark_blue"/>
+        <ImageView
+            android:id="@+id/imgCoinCorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_coins_success_6"
+            android:layout_marginTop="@dimen/img_coin_margin_top"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/button_continue_level"
+            android:layout_width="@dimen/bt_continue_width"
+            android:layout_height="@dimen/bt_continue_height"
+            android:background="@drawable/bt_continue"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/bt_continue_margin_top"/>
+    </FrameLayout>
+
+
+
+</FrameLayout>

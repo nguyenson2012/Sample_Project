@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CatchPictureProject</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="play_now">PLAY NOW</string>
+    <string name="help">HELP</string>
+    <string name="reveal_question">Do you want to reveal a correct letter for 10 coins?</string>
+    <string name="delete_letter_question">Do you want to delete letters that are not part of result for 10 coins?</string>
+    <string name="info">INFO</string>
+    <string name="dont_enough_coin">You don\'t have enough coin.You can get some coin here!</string>
+    <string name="sound">Sound</string>
+    <string name="about">About App</string>
+    <string name="link_google_play_for_share">Play this app and have fun:Link Google</string>
+    <string name="share_app_title">Choose sharing</string>
+    <string name="buy_coin">BUY COIN</string>
+    <string name="nam_tram_coin">500</string>
+    <string name="get_coin">Get Coin</string>
+    <string name="price_500">10k</string>
+    <string name="coin1000">1000</string>
+    <string name="price_1000">20k</string>
+    <string name="coin2000">2000</string>
+    <string name="price_2000">38k</string>
+    <string name="coin4000">4000</string>
+    <string name="price_4000">50k</string>
+    <string name="exit">Exit</string>
+    <string name="check_internet">Please check your Internet connection to display image</string>
+    <string name="get_coin_rule">One time to get coin per day!</string>
+    <string name="cant_get_coin">You can get coin tommorow!</string>
+    <string name="share_img_message">I am stuck in this quiz.Please help me.</string>
+    <string name="rate_app">Rate The App</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="developer">EduIntelligent</string>
+    <string name="mail">Mail:</string>
+    <string name="link_gmail">edu_intelligent@gmail.com</string>
+    <string name="facebook">Facebook:</string>
+    <string name="how_to_play">Click to the puzzle to see the picture and guess the word.Less image will get more coin.Click to the image to enlarge it and see the copyright infomation of the image</string>
+    <string name="link_google_play_for_rate">https://play.google.com/store/apps</string>
+    <string name="banner_home_footer">ca-app-pub-3120536913205473/5975042732</string>
+</resources>
